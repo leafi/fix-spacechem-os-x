@@ -6,7 +6,7 @@ On El Capitan, this messes up images for some reason, and that causes SpaceChem'
 
 ## Using the script (easy mode)
 
-Do you trust me? Great, grab the script from Releases and run it. I hope you installed SpaceChem in the default Steam library.
+Do you trust me? Great, grab the script  https://github.com/leafi/fix-spacechem-os-x/releases/download/v1.0/fix-spacechem.command.zip , unzip, and double-click it. I hope you installed SpaceChem in the default Steam library.
 
 ## DIY (hard mode)
 
