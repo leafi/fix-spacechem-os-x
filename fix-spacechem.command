@@ -31,7 +31,7 @@ else
   if $THE_MONO --version | grep x86; then
     echo "Looks good - downloading fixed launch script..."
     rm /tmp/fixed-launcher.sh 2>&1 >/dev/null
-    curl -o /tmp/fixed-launcher.sh https://github.com/leafi/fix-spacechem-os-x/raw/master/fixed-launcher.sh
+    curl -o /tmp/fixed-launcher.sh "https://raw.githubusercontent.com/leafi/fix-spacechem-os-x/master/fixed-launcher.sh"
     cp -f /tmp/fixed-launcher.sh "${SPACECHEM_PATH}/MacOS/SpaceChem"
     chmod a+rx "${SPACECHEM_PATH}/MacOS/SpaceChem"
     echo "OK, done."
@@ -45,7 +45,7 @@ fi
 
 echo "Messing with libraries..."
 
-rm -r /tmp/old_SDL_image.framework >/dev/null 2>&1
+rm -rf /tmp/old_SDL_image.framework >/dev/null 2>&1
 
 echo "Downloading old SDL_image...."
 
