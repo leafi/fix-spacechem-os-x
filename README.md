@@ -36,6 +36,10 @@ Firstly: Make sure you've installed mono from http://mono-project.com/. We are g
 
 If you're like me, you have mono anyway, and it's 64-bit not 32-bit. (Do `mono --version` in a terminal.)
 
+So: Where is the right Mono?
+
+Try `/Library/Frameworks/Mono.framework/Commands/mono --version` and `/usr/local/bin/mono --version`. Which one says `Architecture: x86`?
+
 Now, we need to edit the launcher. Go edit (steamapps)/common/SpaceChem/SpaceChem.app/Contents/MacOS/SpaceChem in a text editor.
 
 Delete the stuff that checks for Mono, lines 35 through 43.
@@ -45,6 +49,10 @@ Go near the bottom, to what was line 64 (`os.execlp('mono', app_name, app_name +
 Change that to:
 
 `os.execlp('/Library/Frameworks/Mono.framework/Commands/mono', app_name, app_name + '.exe')`
+
+OR
+
+`os.execlp('/usr/local/bin/mono', app_name, app_name + '.exe')`
 
 Save and try and start SpaceChem again through Steam.
 
