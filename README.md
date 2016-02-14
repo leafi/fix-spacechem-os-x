@@ -40,9 +40,11 @@ So: Where is the right Mono?
 
 Try `/Library/Frameworks/Mono.framework/Commands/mono --version` and `/usr/local/bin/mono --version`. Which one says `Architecture: x86`?
 
+(If `mono --version` actually said `Architecture: x86`, type `which mono` and write down the path!)
+
 Now, we need to edit the launcher. Go edit (steamapps)/common/SpaceChem/SpaceChem.app/Contents/MacOS/SpaceChem in a text editor.
 
-Delete the stuff that checks for Mono, lines 35 through 43.
+Delete the stuff that automatically searches for Mono, lines 35 through 43. As the launcher script isn't working for you, it must be finding the wrong one.
 
 Go near the bottom, to what was line 64 (`os.execlp('mono', app_name, app_name + '.exe')`).
 
