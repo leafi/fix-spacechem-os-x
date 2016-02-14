@@ -30,7 +30,7 @@ Now, try launching the game through Steam again. With luck that'll be it.
 
 ### Fixing Mono not found issues (maybe not needed)
 
-(i.e. that damn Zachtronics web page keeps opening up when you try to launch)
+(i.e. that damn Zachtronics web page keeps opening up when you try to launch OR the launch silently fails)
 
 Firstly: Make sure you've installed mono from http://mono-project.com/. We are going to need it.
 
@@ -44,7 +44,7 @@ Try `/Library/Frameworks/Mono.framework/Commands/mono --version` and `/usr/local
 
 Now, we need to edit the launcher. Go edit (steamapps)/common/SpaceChem/SpaceChem.app/Contents/MacOS/SpaceChem in a text editor.
 
-Delete the stuff that automatically searches for Mono, lines 35 through 43. As the launcher script isn't working for you, it must be finding the wrong one.
+Delete the stuff that automatically searches for Mono, lines 35 through 43. As the launcher script isn't working for you, it must either be not finding any Mono or must be finding the wrong one.
 
 Go near the bottom, to what was line 64 (`os.execlp('mono', app_name, app_name + '.exe')`).
 
