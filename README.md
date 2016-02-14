@@ -6,9 +6,7 @@ On El Capitan, this messes up images for some reason, and that causes SpaceChem'
 
 ## Using the script (easy mode)
 
-Do you trust me? Great, grab the script  https://github.com/leafi/fix-spacechem-os-x/releases/download/v1.0/fix-spacechem.command.zip , unzip, and double-click it. I hope you installed SpaceChem in the default Steam library.
-
-(Update: I've been told that double-clicking this might cause OS X to prompt you to install XCode CLI tools. You don't need these. If you get this prompt, please just open a Terminal, cd to the right directory, and do `./fix-spacechem.command`. `chmod +x fix-spacechem.command` if it whines about fix-spacechem.command not being executable.)
+Do you trust me? Great, grab the .zip file from https://github.com/leafi/fix-spacechem-os-x/releases/tag/v1.1 , unzip, and double-click it. I hope you installed SpaceChem in the default Steam library.
 
 ## DIY (hard mode)
 
