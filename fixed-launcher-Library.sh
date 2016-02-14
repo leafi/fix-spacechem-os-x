@@ -31,6 +31,7 @@ def which(program):
 
 def main():
     log("Log created, script running.")
+    log("THIS IS A PATCHED LAUNCHER FROM LEAFI'S GITHUB - hardcoded /Library/Frameworks/Mono.framework/Commands/mono one!")
 
 
     # Find the absolute path to the .app bundle.
