@@ -8,6 +8,8 @@ On El Capitan, this messes up images for some reason, and that causes SpaceChem'
 
 Do you trust me? Great, grab the script  https://github.com/leafi/fix-spacechem-os-x/releases/download/v1.0/fix-spacechem.command.zip , unzip, and double-click it. I hope you installed SpaceChem in the default Steam library.
 
+(Update: I've been told that double-clicking this might cause OS X to prompt you to install XCode CLI tools. You don't need these. If you get this prompt, please just open a Terminal, cd to the right directory, and do `./fix-spacechem.command`. `chmod +x fix-spacechem.command` if it whines about fix-spacechem.command not being executable.)
+
 ## DIY (hard mode)
 
 ### Downgrade SDL_image to 1.2.10
