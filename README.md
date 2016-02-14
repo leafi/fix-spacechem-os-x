@@ -127,3 +127,12 @@ Then, `cat exception.txt`.
 * It launches, but there's no icon in the dock and mouse focus is pretty broken? Yeah, that's why SpaceChem is packed in this weird .app format in the first place, and why launching it like this is bad. Once you've fixed everything else, just launch through Steam like you should, and everything will be fine.
 
 * Others? Contact me in some way. Give me the exception. I'll try my best to help.
+
+
+## Uninstalling all this
+
+Possibly uninstall Mono. It shouldn't intefere with anything else - Mono installs versions side-by-side, it doesn't uninstall older ones - but you know your system better than me.
+
+Go to /Library/Frameworks, and delete SDL, SDL_image and SDL_mixer completely. Well-behaved SDL applications ship their own copy of SDL inside themselves. We put them there as a hack.
+
+Finally, go into the Steam client, then to your Library, find SpaceChem, right-click it, click Properties, click the Local Files tab, and click Verify Integrity of Game Cache. This will undo all the hacks we did to SpaceChem itself, whether the script did them or you did them.
