@@ -4,6 +4,12 @@ The crux of the issue is that SpaceChem uses SDL_image 1.2.12.
 
 On El Capitan, this messes up images for some reason, and that causes SpaceChem's font loader to fail because the images it's getting are quite messed up.
 
+## Edit: Don't use Mono 4.4!
+
+You know how you have to install Mono yourself? (Even the official Steam version without these fixes makes you do it.)
+
+I've gotten reports that everything falls to pieces under Mono 4.4 for some reason. If you're experiencing issues like in issue #2, try downgrading Mono. 4.3 **should** work.
+
 ## Using the script (easy mode)
 
 Do you trust me? Great, grab the .zip file from https://github.com/leafi/fix-spacechem-os-x/releases/tag/v1.1 , unzip, and double-click the fix-spacechem.command file. I hope you installed SpaceChem in the default Steam library.
