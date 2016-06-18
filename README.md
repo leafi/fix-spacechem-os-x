@@ -6,6 +6,8 @@ But I'm here to take all your troubles away.
 
 **Patcher app: ->** https://github.com/leafi/fix-spacechem-os-x/releases/tag/v2
 
+**Note: This is for the Steam version. I have no idea about anything for the Humble Bundle version.**
+
 The app downgrades the particular shipped version of SDL and also includes a known good standalone version of Mono (thanks to MonoKickStart). Run it, or read on for more rambling technical info.
 
 ====
