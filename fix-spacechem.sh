@@ -17,6 +17,7 @@ tar -jxvf bonsai.tar.bz2
 rm bonsai.tar.bz2
 
 echo "Should all be OK! Try launching via Steam. Any problems, log an issue on GitHub."
+echo "(And copy and paste this log in the issue.)"
 
 read -p "Press Return to close..."
 
