@@ -4,9 +4,9 @@ SpaceChem has bitrotted a bit. It uses SDL_image 1.2.12, a version that surprisi
 
 But I'm here to take all your troubles away. 
 
-**Patcher app: ->** https://github.com/leafi/fix-spacechem-os-x/releases/tag/v2
+**Patcher app: ->** https://github.com/leafi/fix-spacechem-os-x/releases/tag/v2.2
 
-![patcher app screenshot](https://github.com/leafi/fix-spacechem-os-x/raw/master/Screen%20Shot%202016-06-18%20at%2022.25.13.png)
+![patcher app screenshot](https://github.com/leafi/fix-spacechem-os-x/raw/master/Screen%20Shot%202016-07-30%20at%2001.57.24.png)
 
 **Note: This is for the Steam version. I have no idea about anything for the Humble Bundle version.**
 
